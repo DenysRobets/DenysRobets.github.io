@@ -159,7 +159,7 @@ a {
 	min-height: 100vh;
 }
 .services-wrapper{
-	padding: 30px 35px 80px;
+	padding: 30px 35px;
 	margin: 0 auto;
 	min-height: 100vh;
 	text-align: center;
@@ -276,9 +276,20 @@ a {
 .case-list{
 	margin-top: 19px;
 }
+.case-list_item{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	margin-bottom: 5px;
+}
 .case-list_item span{
-	font-size: 6px;
+	font-size: 7px;
 	text-transform: uppercase;
+}
+.btn-case{
+	margin-top: 50px;
 }
 .invite{
 	margin-top: 60px;
@@ -308,6 +319,10 @@ a {
 	display: flex;
 	align-items: center;
 	margin-bottom: 8px;
+}
+.contacts-item img{
+	width: 19px;
+	height: 19px;
 }
 .contacts-item span{
 	padding-left: 8px;
