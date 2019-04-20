@@ -1,0 +1,5 @@
+$(function () {
+
+$('.cases-slider').slick();	
+
+})
