@@ -83,7 +83,7 @@ a {
 	position: relative;
 }
 .header-wrapper{
-	padding: 60px 40px;
+	padding: 60px 40px 90px;
 	margin: 0 auto;
 	height: 100%;
 	text-align: center;
@@ -96,7 +96,7 @@ a {
 	justify-content: space-between;
 }
 .logo-text{
-	font-size: 10px;
+	font-size: 12px;
 	letter-spacing: 0.25px;
 	text-transform: uppercase;
 }
@@ -108,10 +108,10 @@ a {
 }
 .header-text{
 	margin-top: 20px;
-	font-size: 7px;
+	font-size: 10px;
 	text-transform: uppercase;
 	letter-spacing: 0.2px;
-	line-height: 10.44px;
+	line-height: 11px;
 }
 .down-link{
 	cursor: pointer;
