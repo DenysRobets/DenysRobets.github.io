@@ -79,6 +79,7 @@ a {
 	height: 100vh;
 	background: url(../img/bg.png) center no-repeat;
 	background-size: cover;
+	background-attachment: fixed;
 	color: #fff;
 	position: relative;
 }
@@ -153,7 +154,6 @@ a {
 
 /*----- Services -----*/
 .services {
-	background-color: #000;
 	color: #fff;
 	position: relative;
 	min-height: 100vh;
@@ -229,14 +229,14 @@ a {
 	letter-spacing: 0.25px;
 	border: 2px solid #f9d914;
 	border-radius: 10px;
-	padding: 6px 35px;
+	padding: 7px 35px 6px;
 	display: block;
 	margin: 0px auto;
 	outline : none; 
 }
 
 .cases {
-	background-color: #000;
+	/*background-color: #000;*/
 	color: #fff;
 	position: relative;
 	height: 100vh;
