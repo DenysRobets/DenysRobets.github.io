@@ -83,9 +83,17 @@ a {
 	position: relative;
 }
 .header-wrapper{
-	padding: 90px 40px;
+	padding: 20px 40px;
 	margin: 0 auto;
+	height: 100%;
 	text-align: center;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 .logo-text{
 	font-size: 10px;
@@ -93,7 +101,6 @@ a {
 	text-transform: uppercase;
 }
 .title{
-	margin-top: 130px;
 	color: #f9d914;
 	font-size: 27px;
 	text-transform: uppercase;
@@ -101,13 +108,12 @@ a {
 }
 .header-text{
 	margin-top: 20px;
-	margin-bottom: 250px;
 	font-size: 7px;
 	text-transform: uppercase;
 	letter-spacing: 0.2px;
 	line-height: 10.44px;
 }
-.down{
+.down-link{
 	cursor: pointer;
 	display: -webkit-flex;
 	display: -moz-flex;
