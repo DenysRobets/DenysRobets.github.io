@@ -270,6 +270,7 @@ a {
 }
 .title-text{
 	font-size: 8px;
+	line-height: 15px;
 	text-transform: uppercase;
 	padding-left: 4px;
 }
@@ -304,7 +305,7 @@ a {
 }
 .contacts{
 	position: absolute;
-	bottom: 45px;
+	bottom: 60px;
 	left: 50%;
 	transform: translateX(-50%);
 	font-family: "AvantGardeGothicC";
