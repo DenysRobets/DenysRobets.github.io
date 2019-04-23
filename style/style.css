@@ -244,17 +244,24 @@ a {
 
 }
 .cases-wrapper{
-	padding: 37px 15px 0;
+	padding: 0 10px;
 	margin: 0 auto;
+	height: 100%;
+}
+.cases-slider{
+	height: 100%;
 }
 .case-item{
 	position: relative;
 }
+.case-img{
+	width: 360px;
+}
 .case-content{
-	position: absolute;
+	/* position: absolute;
 	right: 0;
 	top: 50%;
-	transform: translateY(-50%);
+	transform: translateY(-50%); */
 }
 .case-title{
 	display: -webkit-flex;
@@ -289,7 +296,7 @@ a {
 	font-size: 7px;
 	text-transform: uppercase;
 }
-.btn-case{
+/* .btn-case{
 	margin-top: 50px;
 }
 .invite{
@@ -327,4 +334,4 @@ a {
 }
 .contacts-item span{
 	padding-left: 8px;
-}
+} */
