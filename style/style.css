@@ -247,7 +247,7 @@ a {
 	height: 100%;
 }
 .case-img{
-	width: 90%;
+	width: 80%;
 	margin: 0 auto;
 }
 .case-content{
@@ -345,6 +345,7 @@ a {
 	border: none;
 	border-bottom: 2px solid #c5ac0f;
 	margin-bottom: 20px;
+	border-radius: 0;
 	outline : none;
 	color: #fff;
 	text-align: center;
