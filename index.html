@@ -74,7 +74,7 @@
 						<p class="item-text">подробная презентация об условия сотрудничества с компанией</p>
 					</div>
 				</div>
-				<a href="#" class="btn">Оставить заявку</a>
+				<a href="#form-id" class="btn">Оставить заявку</a>
 				<div class="down">
 					<a href="#cases" class="down-link">
 						<span class="down-text">кейсы</span>
@@ -197,9 +197,11 @@
 			</div>
 			<div class="requisition-form">
 				<h2 class="form-title">Оставьте номер и получите пошаговую стратегию для достижения результата</h2>
-				<form action="#" class="form">
-					<input type="text" name="user_insta" required>
-					<input type="tel" name="user_tel" required>
+				<form action="request/success.php" method="post" class="form" id="form-id">
+					<label for="name">instagram</label>
+					<input type="text" name="name" id="name" required>
+					<label for="phone">ваш номер телефона</label>
+					<input type="tel" name="phone" id="phone" required>
 					<button type="submit" class="btn">оставить заявку</button>
 				</form>
 			</div>

@@ -236,15 +236,13 @@ a {
 }
 
 .cases {
-	/*background-color: #000;*/
 	color: #fff;
-	/* position: relative; */
 	height: 100vh;
 	font-family: "AvantGardeGothicC";
 
 }
 .cases-wrapper{
-	padding: 0 10px;
+	padding: 0 10px 80px;
 	margin: 0 auto;
 	height: 100%;
 }
@@ -292,15 +290,18 @@ a {
 	text-transform: uppercase;
 }
 .requisition{
+	background-color: #000;
 	height: 100vh;
 	padding: 10px;
 	color: #fff;
-	position: relative;
+	font-family: "AvantGardeGothicC";
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 .invite{
 	text-align: center;
 	font-size: 30px;
-	font-family: "AvantGardeGothicC";
 	text-transform: uppercase;
 	letter-spacing: 0.75px;
 }
@@ -311,22 +312,54 @@ a {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	margin: 40px 0 30px;
 }
 .krasnyi img{
 	width: 30px;
 	height: 30px;
 }
 .krasnyi a{
+	color: #f6e818;
 	font-size: 15px;
 	text-transform: uppercase;
 }
+/*---------- Form -------------*/
+.form-title{
+	font-size: 15px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.form {
+	text-align: center;
+}
+.form label{
+	font-size: 12px;
+	text-transform: uppercase;
+}
+.form input {
+	display: block;
+	width: 100%;
+	height: 25px;
+	background: transparent;
+	border: none;
+	border-bottom: 2px solid #c5ac0f;
+	margin-bottom: 20px;
+	outline : none;
+	color: #fff;
+	text-align: center;
+}
+.form button{
+	margin-top: 40px;
+	margin-bottom: 80px;
+}
 
 .contacts{
-	position: absolute;
+	/* position: absolute;
 	bottom: 60px;
 	left: 50%;
 	transform: translateX(-50%);
-	font-family: "AvantGardeGothicC";
+	font-family: "AvantGardeGothicC"; */
 	font-size: 9px;
 	text-transform: uppercase;
 }
