@@ -1,0 +1,176 @@
+body {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+	color: #000;
+}
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.hero{
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(to bottom, rgba(9, 47, 51, 0.8) 0%, rgba(0, 29, 31, 0.5) 100%),
+	url(../img/1.jpg) center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+.hero__title{
+	font-size: 65px;
+	color: #fff;
+}
+.header {
+	width: 100%;
+	height: 100px;
+	background-color: #000;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	color: #fff;
+	font-weight: 700;
+}
+.header__inner {
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav__link {
+	font-size: 16px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 10px;
+}
+
+/* ?.nav__link:after { } */
+
+.logo {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.logo__img {
+	height: 100px;
+}
+.phone {
+	font-size: 21px;
+	font-weight: 400;
+}
+
+/* * Автопарк */
+
+.autopark {
+	padding-top: 25px;
+	background-color: #e7e7e7;
+}
+.section__title {
+	font-size: 52px;
+	text-align: center;
+}
+.autopark-wrapper {
+	margin-top: 10px;
+
+}
+.car-block {
+	display: flex;
+	background: #fff;
+	margin-bottom: 5px;
+}
+
+.car-block__img {
+	width: 50%;
+}
+.car-block__img img {
+	width: 100%;
+}
+.car-block-description {
+	width: 50%;
+	text-align: center;
+}
+.car-block-description__title {
+	margin: 10px 0;
+	font-size: 32px;
+}
+.car-block-description__list {
+	font-size: 18px;
+	line-height: 25px;
+}
+.green-price {
+	font-weight: 700;
+	color: rgb(26, 139, 26);
+}
+
+/* * Кнопка Заказать Авто */
+
+.order-auto{
+	text-align: center;
+}
+
+.btn {
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 700;
+	color: #ffffff;
+	background-color: #259da8;
+	border-radius: 5px;
+	padding: 15px 60px;
+	margin: 25px 0;
+}

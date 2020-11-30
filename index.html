@@ -1,226 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Krasnopolsky.marketing</title>
-	<link rel="stylesheet" href="style/style.css">
-	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 
+<head>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" href="assets/css/style.css" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" />
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+	<title>Аренда авто Сумы</title>
 </head>
+
 <body>
-	<div class="container">
-		<header class="header">
-			<div class="header-wrapper">
+	<!-- ! Панель навигации -->
+
+	<header class="header">
+		<div class="container">
+			<div class="header__inner">
+				<nav class="nav">
+					<a class="nav__link" href="#">Автопарк</a>
+					<a class="nav__link" href="#">Услуги</a>
+					<a class="nav__link" href="#">Условия</a>
+					<a class="nav__link" href="#">Контакты</a>
+				</nav>
 				<div class="logo">
-					<span class="logo-text">Krasnopolsky.marketing</span>
+					<img class="logo__img" src="assets/img/logo.png" alt="" />
 				</div>
-				<div class="center">
-					<h1 class="title">создаем бренд<br> из вашего бизнеса</h1>
-					<p class="header-text">мы брендинг агенство, которое не берет деньги просто за процесс, потому что для нас самих важен результат. По этому мы не будем просто постить в ваш инстаграм фоточки, мы не будем подключать массфоловинг, который привлечет вам еденицы новых клиентов, мы не будем учавствовать в массовых  giveaway для привлечения “халявщиков” в ваш профиль</p>
-				</div>
-				<div class="down">
-					<a href="#serv" class="down-link">
-						<span class="down-text">услуги</span>
-						<img src="img/down.png" alt="">
-					</a>
-				</div>
-			</div>						
-		</header>
-		<section class="services" id="serv">
-			<div class="services-wrapper">
-				<h2 class="services-title">мы проведем <span class="yellow"> маркетинг ревизию</span> вашего бизнеса и гарантированно<br> доведем до <span class="yellow">результата</span></h2>
-				<div class="services-list">
-					<div class="services-item">
-						<img src="img/item-img.png" alt="" class="item-img">
-						<h3 class="item-title">оформление<br><span class="yellow">instagram</span></h3>
-						<p class="item-text">создание индивидуального контента, направленного на решение ваших задач</p>
-					</div>
-					<div class="services-item">
-						<img src="img/item-img.png" alt="" class="item-img">
-						<h3 class="item-title">работа<br><span class="yellow">с блогерами</span></h3>
-						<p class="item-text">сотрудничество с медийными личностями. продвижение товара или услуги через их соц. сети</p>
-					</div>
-					<div class="services-item">
-						<img src="img/item-img.png" alt="" class="item-img">
-						<h3 class="item-title">реклама<br><span class="yellow">instagram</span></h3>
-						<p class="item-text">настройка официальной рекламы, для привлечения подписчиков и новых клиентов</p>
-					</div>
-					<div class="services-item">
-						<img src="img/item-img.png" alt="" class="item-img">
-						<h3 class="item-title">генерация <br><span class="yellow">лидов</span></h3>
-						<p class="item-text">свои первые заявки вы получите уже через 24 часа бесплатно предоставим тестовый период</p>
-					</div>
-					<div class="services-item">
-						<img src="img/item-img.png" alt="" class="item-img">
-						<h3 class="item-title">создание<br><span class="yellow">фото и видео контента</span></h3>
-						<p class="item-text">создание уникального фото или видео контента, отражающего философию бренда и его основные особенности</p>
-					</div>
-					<div class="services-item">
-						<img src="img/item-img.png" alt="" class="item-img">
-						<h3 class="item-title">презентация<br><span class="yellow">о прродукте</span></h3>
-						<p class="item-text">создание продающих презентаций, с подробным описанием товара или услуги</p>
-					</div>
-					<div class="services-item">
-						<img src="img/item-img.png" alt="" class="item-img">
-						<h3 class="item-title"><span class="yellow">фотосессии</span></h3>
-						<p class="item-text">проведение профессиональной фотосесии с участием бренда, начиная от поиска локаций и моделей до ретуша фотографий</p>
-					</div>
-					<div class="services-item">
-						<img src="img/item-img.png" alt="" class="item-img">
-						<h3 class="item-title"><span class="yellow">маркетинг-кит</span></h3>
-						<p class="item-text">подробная презентация об условия сотрудничества с компанией</p>
-					</div>
-				</div>
-				<a href="#form-id" class="btn">Оставить заявку</a>
-				<div class="down">
-					<a href="#cases" class="down-link">
-						<span class="down-text">кейсы</span>
-						<img src="img/down.png" alt="">
-					</a>
-				</div>
-			</div>
-		</section>
-		<div class="cases" id="cases">
-			<div class="cases-wrapper">
-				<div class="cases-slider" data-slick='{"arrows": false, "autoplay": true, "autoplaySpeed": 2000}'>
-					<div class="case-item">
-						<img src="img/chia.png" alt="" class="case-img">
-						<div class="case-content">
-							<div class="case-title">
-								<img src="img/insta1.png" alt="">
-								<a href="https://instagram.com/chiabychia?utm_source=ig_profile_share&igshid=1v79e1rqy4nb8" class="title-text" target="_blank">chiabychia</a>
-							</div>
-							<ul class="case-list">
-								<li class="case-list_item">
-									<img src="img/marker.png" alt="">
-									<span>Создали бренд с полного нуля</span>
-								</li>
-								<li class="case-list_item">
-									<img src="img/marker.png" alt="">
-									<span>разработали нейминг, дизайн и упаковку</span>
-								</li>
-								<li class="case-list_item">
-									<img src="img/marker.png" alt="">
-									<span>привлекли 3,3k подписчиков</span>
-								</li>
-								<li class="case-list_item">
-									<img src="img/marker.png" alt="">
-									<span>в среднем 17 продаж в день</span>
-								</li>
-								<li class="case-list_item">
-									<img src="img/marker.png" alt="">
-									<span>время сотрудничества 2 мес</span>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="case-item">
-						<img src="img/granola.png" alt="" class="case-img">
-						<div class="case-content">
-							<div class="case-title">
-								<img src="img/insta1.png" alt="">
-								<a href="https://instagram.com/by_granola?utm_source=ig_profile_share&igshid=qici1b69cbxf" class="title-text" target="_blank">by_granola</a>
-							</div>
-							<ul class="case-list">
-								<li class="case-list_item">
-									<img src="img/marker.png" alt="">
-									<span>Создали бренд с полного нуля</span>
-								</li>
-								<li class="case-list_item">
-									<img src="img/marker.png" alt="">
-									<span>разработали нейминг, дизайн и упаковку</span>
-								</li>
-								<li class="case-list_item">
-									<img src="img/marker.png" alt="">
-									<span>привлекли 6,5k подписчиков</span>
-								</li>
-								<li class="case-list_item">
-									<img src="img/marker.png" alt="">
-									<span>в среднем 23 продаж в день</span>
-								</li>
-								<li class="case-list_item">
-									<img src="img/marker.png" alt="">
-									<span>время сотрудничества 2 мес</span>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="case-item">
-						<img src="img/clean.png" alt="" class="case-img">
-						<div class="case-content">
-							<div class="case-title">
-								<img src="img/insta1.png" alt="">
-								<a href="https://instagram.com/sumy_clean_life?utm_source=ig_profile_share&igshid=zaej3g7qalpg" class="title-text" target="_blank">sumy_clean_life</a>
-							</div>
-							<ul class="case-list">
-								<li class="case-list_item">
-									<img src="img/marker.png" alt="">
-									<span>настройка рекламы facebook и instagram</span>
-								</li>
-								<li class="case-list_item">
-									<img src="img/marker.png" alt="">
-									<span>полное сопровождение рекламной кампании</span>
-								</li>
-								<li class="case-list_item">
-									<img src="img/marker.png" alt="">
-									<span>работа со старой базой клиентов</span>
-								</li>
-								<li class="case-list_item">
-									<img src="img/marker.png" alt="">
-									<span>30+ заказов в день</span>
-								</li>
-								<li class="case-list_item">
-									<img src="img/marker.png" alt="">
-									<span>сотрудничаем ежемесячно</span>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="down">
-					<a href="#requisition" class="down-link">
-						<img src="img/down.png" alt="">
-					</a>
+				<div class="phone">
+					<a href="tel:+380664589766">+38 066 458 97 66</a>
 				</div>
 			</div>
 		</div>
-		<div class="requisition" id="requisition">
-			<div class="invite">
-				<span class="road">хватит</span> платить просто за <span class="road">процесс</span>
-			</div>
-			<div class="krasnyi">
-				<img src="img/insta2.png" alt="">
-				<a href="https://instagram.com/krasnopolsky.marketing?utm_source=ig_profile_share&igshid=1306o2oro6s1s" target="_blank">krasnopolsky.marketing</a>
-			</div>
-			<div class="requisition-form">
-				<h2 class="form-title">Оставьте номер и получите пошаговую стратегию для достижения результата</h2>
-				<form action="request/success.php" method="post" class="form" id="form-id">
-					<label for="name">instagram</label>
-					<input type="text" name="name" id="name" required>
-					<label for="phone">ваш номер телефона</label>
-					<input type="tel" name="phone" id="phone" required>
-					<button type="submit" class="btn">оставить заявку</button>
-				</form>
-			</div>
-			<div class="contacts">
-					<div class="contacts-item">
-						<img src="img/geo.png" alt="">
-						<span>Украина, сумы</span>
-					</div>
-					<div class="contacts-item">
-						<img src="img/tel.png" alt="">
-						<span>+38 (066) 000 12 34</span>
-					</div>
-				</div>
+	</header>
+
+	<!-- ! Главный экран -->
+
+	<div class="hero">
+		<div class="container">
+			<h1 class="hero__title">Аренда Авто Сумы</h1>
 		</div>
 	</div>
-	<script src="js/jquery-3.3.1.min.js"></script>
-	<script type="text/javascript" src="slick/slick.min.js"></script>
 
-	<script src="js/script.js"></script>
-	
+	<!-- ! Секция Автопарк -->
+
+	<section class="autopark">
+		<div class="container">
+			<h2 class="section__title">Автопарк</h2>
+			<div class="autopark-wrapper">
+				<div class="car-block">
+					<div class="car-block__img">
+						<img src="./assets/img/elantra3.jpeg" alt="hundai elantra" />
+					</div>
+					<div class="car-block-description">
+						<h3 class="car-block-description__title">Hundai Elantra 2013</h3>
+						<ul class="car-block-description__list">
+							<li><b>Двигатель:</b> 1.6</li>
+							<li><b>КПП:</b> механика</li>
+							<li><b>Топливо:</b> бензин</li>
+							<li><b>Цена:</b> <span class="green-price">600</span> грн/сутки</li>
+							<li>от 3-х суток <span class="green-price">550</span> грн/сутки</li>
+						</ul>
+					</div>
+				</div>
+				<div class="car-block">
+					<div class="car-block__img">
+						<img src="./assets/img/ravon.jpg" alt="ravon r4" />
+					</div>
+					<div class="car-block-description">
+						<h3 class="car-block-description__title">Ravon R4 2020</h3>
+						<ul class="car-block-description__list">
+							<li><b>Двигатель:</b> 1.5</li>
+							<li><b>КПП:</b> механика</li>
+							<li><b>Топливо:</b> бензин</li>
+							<li><b>Цена:</b> <span class="green-price">500</span> грн/сутки</li>
+							<li>от 3-х суток <span class="green-price">450</span> грн/сутки</li>
+						</ul>
+					</div>
+				</div>
+				<div class="car-block">
+					<div class="car-block__img">
+						<img src="/assets/img/reno.jpg" alt="renault sandero" />
+					</div>
+					<div class="car-block-description">
+						<h3 class="car-block-description__title">Renault Sandero 2010</h3>
+						<ul class="car-block-description__list">
+							<li><b>Двигатель:</b> 1.4</li>
+							<li><b>КПП:</b> механика</li>
+							<li><b>Топливо:</b> бензин</li>
+							<li><b>Цена:</b> <span class="green-price">450</span> грн/сутки</li>
+							<li>от 3-х суток <span class="green-price">400</span> грн/сутки</li>
+						</ul>
+					</div>
+				</div>
+				<div class="car-block">
+					<div class="car-block__img">
+						<img src="/assets/img/zaz_lanos_001.png" alt="lanos" />
+					</div>
+					<div class="car-block-description">
+						<h3 class="car-block-description__title">Lanos 2011</h3>
+						<ul class="car-block-description__list">
+							<li><b>Двигатель:</b> 1.5</li>
+							<li><b>КПП:</b> механика</li>
+							<li><b>Топливо:</b> газ/бензин</li>
+							<li><b>Цена:</b> <span class="green-price">350</span> грн/сутки</li>
+							<li>от 3-х суток <span class="green-price">300</span> грн/сутки</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="order-auto">
+				<a href="tel:+380664589766" class="btn">Заказать автомобиль</a>
+			</div>
+		</div>
+	</section>
+
+	<!--! Услуги -->
+
+	<section class="services">
+
+
+
+	</section>
+
 </body>
+
 </html>
