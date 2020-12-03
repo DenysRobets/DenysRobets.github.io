@@ -36,9 +36,6 @@ footer, header, hgroup, menu, nav, section {
 div, p, input, button, form, span, a, ul, li {
 	box-sizing: border-box;
 }
-ol, ul {
-	list-style: none;
-}
 blockquote, q {
 	quotes: none;
 }
@@ -55,10 +52,14 @@ a {
 	color: inherit;
 	text-decoration: none;
 }
+html {
+	scroll-behavior: smooth;
+}
 .container {
 	width: 100%;
-	max-width: 1200px;
+	max-width: 1220px;
 	margin: 0 auto;
+	padding: 0 10px;
 }
 .hero{
 	width: 100%;
@@ -114,6 +115,46 @@ a {
 	font-size: 21px;
 	font-weight: 400;
 }
+.menu-burger__header{
+	display: none;
+	width: 45px;
+	height: 35px;
+
+	position: relative;
+}
+.menu-burger__header span, .menu-burger__header:after, .menu-burger__header:before{
+	height: 3px;
+	width: 100%;
+	position: absolute;
+	background: #fff;
+	margin: 0 auto;
+}
+.menu-burger__header span{
+	top: 16px;
+}
+.menu-burger__header:after, .menu-burger__header:before{
+	content: '';
+}
+.menu-burger__header:after{
+	bottom: 5px;
+}
+.menu-burger__header:before{
+	top: 5px;
+}
+.menu-burger__header.open-menu span {
+	opacity:0; 
+	transition: 0.5s; 
+}
+.menu-burger__header.open-menu:before {
+	transform: rotate(38deg);
+	top: 16px;
+	transition: 0.4s;
+}
+.menu-burger__header.open-menu:after {
+	transform: rotate(-38deg);
+	bottom: 16px;
+	transition: 0.4s;
+}
 
 /* * Автопарк */
 
@@ -121,7 +162,7 @@ a {
 	padding-top: 25px;
 	background-color: #e7e7e7;
 }
-.section__title {
+.autopark-title {
 	font-size: 52px;
 	text-align: center;
 }
@@ -152,6 +193,7 @@ a {
 .car-block-description__list {
 	font-size: 18px;
 	line-height: 25px;
+	list-style: none;
 }
 .green-price {
 	font-weight: 700;
@@ -173,4 +215,89 @@ a {
 	border-radius: 5px;
 	padding: 15px 60px;
 	margin: 25px 0;
+}
+
+/* * Услуги */
+.fas{
+	margin-right: 15px;
+	color:  #259da8;
+}
+.services{
+	padding: 30px 0;
+}
+.services-title{
+	font-size: 32px;
+	text-align: center;
+}
+.services-wrapper{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.services-item{
+	width: 400px;
+	text-align: center;
+	margin: 30px 0;
+}
+.services-item__title{
+	margin-bottom: 10px;
+}
+
+/* *Условия */
+
+.conditions{
+	background: #fff;
+	padding: 30px 0px;
+}
+
+.conditions-title {
+	font-size: 32px;
+	text-align: center;
+}
+.conditions-list{
+	width: 600px;
+	margin: 20px 0;
+}
+.conditions-list__item{
+	margin-left: 20px;
+}
+.line{
+	background-image: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 25%, rgba(0,0,0,1) 75%, rgba(0,0,0,0) 100%);
+	height: 1px;
+}
+
+/* * Contacts */
+
+.contacts {
+	background-color: #e7e7e7;
+}
+.contacts-wrapper{
+text-align: center;
+padding: 30px 0;
+}
+.contact-tel{
+	font-size: 44px;
+	font-weight: 600;
+}
+.street,
+.town
+{
+	display: block;
+	font-size: 18px;
+}
+.show-map{
+	font-size: 16px;
+	color: #0905ca ;
+	text-decoration-line: underline; 
+}
+
+/* *Footer */
+
+.site-footer {
+	background: #000;
+}
+.site-info {
+	color: #fff;
+	font-weight: 100;
+	padding: 20px 0;
 }
