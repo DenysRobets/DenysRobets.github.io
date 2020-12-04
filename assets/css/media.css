@@ -38,8 +38,8 @@
   }
 	.nav__link {
 		font-size: 16px;
-		display: block;
-		margin: 40px;
+		display:block;
+		margin: 40px 150px;
 	}
 	.menu-burger__header{
 		display: block;
@@ -64,9 +64,6 @@
 	.nav{
 		width: 100%;
 		text-align: center;
-	}
-	.nav__link {
-		margin: 40px auto;
 	}
 	.contact-tel {
 		font-size: 30px;
