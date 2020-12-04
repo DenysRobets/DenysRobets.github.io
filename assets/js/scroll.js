@@ -12,13 +12,16 @@ $(document).ready(function () {
 	// 	//анимируем переход на расстояние - top за 1500 мс
 	// 	$('body,html').animate({ scrollTop: top }, 1500);
 	// });
-	if ($(document).width() > 480) {
-		$("a.nav__link").on("click", function (e) {
-			e.preventDefault();
-			var anchor = $(this).attr('href');
-			$('html, body').stop().animate({
-				scrollTop: $(anchor).offset().top - 0
-			}, 800);
-		});
-	}
+	$(window).resize(function () {
+		if ($(document).width() > 480) {
+			$("a.nav__link").on("click", function (e) {
+				e.preventDefault();
+				var anchor = $(this).attr('href');
+				$('html, body').stop().animate({
+					scrollTop: $(anchor).offset().top - 0
+				}, 800);
+			});
+		}
+	});
+
 });
