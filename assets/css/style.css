@@ -71,11 +71,37 @@ html {
 	display: flex;
 	align-items: center;
 	text-align: center;
+	overflow: hidden;
 }
+
+.video-bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	object-fit: cover;
+	width: 100%;
+	height: 100vh;
+	pointer-events: none;
+}
+
+.hero:after{
+	content: '';
+	background: rgb(0,0,0);
+	background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5018382352941176) 25%, rgba(0,0,0,0.5) 75%, rgba(0,0,0,.9) 100%);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+}
+
 .hero__title{
-	font-size: 65px;
+	font-size: 3.5em;
 	color: #fff;
+	position: relative;
+	z-index: 1;
 }
+
 .header {
 	width: 100%;
 	height: 100px;

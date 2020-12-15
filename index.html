@@ -5,7 +5,8 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="assets/css/style.css" />
-	<link rel="stylesheet" href="assets/css/media.css">
+	<link rel="stylesheet" href="assets/css/media.css" />
+	<link rel="stylesheet" href="assets/css/aos.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com" />
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet" />
 	<script src="https://kit.fontawesome.com/2206cef3cc.js" crossorigin="anonymous"></script>
@@ -40,9 +41,14 @@
 	<!-- ! Главный экран -->
 
 	<div class="hero">
+
+		<!-- ! Video-bg -->
+
+		<video class="video-bg" src="/assets/video/Travel.mp4" autoplay muted loop></video>
 		<div class="container">
 			<h1 class="hero__title">Аренда Авто Сумы</h1>
 		</div>
+
 	</div>
 
 	<!-- ! Секция Автопарк -->
@@ -53,9 +59,9 @@
 			<div class="autopark-wrapper">
 				<div class="car-block">
 					<div class="car-block__img">
-						<img src="./assets/img/elantra3.jpeg" alt="hundai elantra" />
+						<img src="./assets/img/elantra3.jpeg" alt="hundai elantra" data-aos="fade-right" />
 					</div>
-					<div class="car-block-description">
+					<div class="car-block-description" data-aos="zoom-in-up">
 						<h3 class="car-block-description__title">Hundai Elantra 2013</h3>
 						<ul class="car-block-description__list">
 							<li><b>Двигатель:</b> 1.6</li>
@@ -68,9 +74,9 @@
 				</div>
 				<div class="car-block">
 					<div class="car-block__img">
-						<img src="./assets/img/ravon.jpg" alt="ravon r4" />
+						<img src="./assets/img/ravon.jpg" alt="ravon r4" data-aos="fade-right" />
 					</div>
-					<div class="car-block-description">
+					<div class="car-block-description" data-aos="zoom-in-up">
 						<h3 class="car-block-description__title">Ravon R4 2020</h3>
 						<ul class="car-block-description__list">
 							<li><b>Двигатель:</b> 1.5</li>
@@ -83,9 +89,9 @@
 				</div>
 				<div class="car-block">
 					<div class="car-block__img">
-						<img src="/assets/img/reno.jpg" alt="renault sandero" />
+						<img src="/assets/img/reno.jpg" alt="renault sandero" data-aos="fade-right" />
 					</div>
-					<div class="car-block-description">
+					<div class="car-block-description" data-aos="zoom-in-up">
 						<h3 class="car-block-description__title">Renault Sandero 2010</h3>
 						<ul class="car-block-description__list">
 							<li><b>Двигатель:</b> 1.4</li>
@@ -98,9 +104,9 @@
 				</div>
 				<div class="car-block">
 					<div class="car-block__img">
-						<img src="/assets/img/zaz_lanos_001.png" alt="lanos" />
+						<img src="/assets/img/zaz_lanos_001.png" alt="lanos" data-aos="fade-right" />
 					</div>
-					<div class="car-block-description">
+					<div class="car-block-description" data-aos="zoom-in-up">
 						<h3 class="car-block-description__title">Lanos 2011</h3>
 						<ul class="car-block-description__list">
 							<li><b>Двигатель:</b> 1.5</li>
@@ -249,13 +255,14 @@
 		</div>
 	</footer>
 
-	<a href="#" class="btn-to-top"></a>
+	<a class="btn-to-top"></a>
 
-	<script src="https://code.jquery.com/jquery-3.5.1.min.js"
-		integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-	<script src="./assets/js/scroll.js"></script>
+	<script src="assets/js/jquery-min.js"></script>
+	<script src="/assets/js/scroll.js"></script>
 	<script src="/assets/js/burger.js"></script>
 	<script src="/assets/js/btn-to-top.js"></script>
+	<script src="/assets/js/aos.js"></script>
+	<script src="/assets/js/app.js"></script>
 </body>
 
 </html>
